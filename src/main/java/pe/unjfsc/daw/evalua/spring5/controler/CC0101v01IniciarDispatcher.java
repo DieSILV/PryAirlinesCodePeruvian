@@ -42,13 +42,14 @@ public class CC0101v01IniciarDispatcher {
 		return new ModelAndView(lsArchivoJsp, "vFechaSistema", lsFechaSistema);
 	}	
 	
-	@RequestMapping(value = "/hoteles.pe")
-	public ModelAndView handleRequest_lugares(HttpServletRequest request, HttpServletResponse response) {
-		String lsArchivoJsp = "hoteles"; // Define nombre del archivo jsp fisico sin la extension
+	@RequestMapping(value = "/login.pe")
+	public ModelAndView handleRequest_login(HttpServletRequest request, HttpServletResponse response) {
+		String lsArchivoJsp = "login"; // Define nombre del archivo jsp fisico sin la extension
 		String lsFechaSistema = (new Date()).toString();
 		LOG.info("[DAW] lsArchivoJsp: 	{}", lsArchivoJsp);
 		LOG.info("[DAW] lsFechaSistema        : {}", lsFechaSistema);
 		return new ModelAndView(lsArchivoJsp, "vFechaSistema", lsFechaSistema);
 	}
-	
+
+
 }

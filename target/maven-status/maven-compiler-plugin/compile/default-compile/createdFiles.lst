@@ -1,2 +1,6 @@
+pe\unjfsc\daw\evalua\spring5\Controller\UsuarioController.class
 pe\unjfsc\daw\evalua\spring5\entity\CEUsuario.class
 pe\unjfsc\daw\evalua\spring5\controler\CC0101v01IniciarDispatcher.class
+pe\unjfsc\daw\evalua\spring5\CI\CrudInterface.class
+pe\unjfsc\daw\evalua\spring5\db\BDConnection.class
+pe\unjfsc\daw\evalua\spring5\dao\CLUsuario.class

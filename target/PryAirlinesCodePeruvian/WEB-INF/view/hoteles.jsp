@@ -7,6 +7,15 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<h1>Menu de Opciones Usuarios</h1>
 
+	<table border="1">
+		<tr>
+			<td><a href="usuarios?opcion=crear"> INGRESAR USUARIO</a></td>
+		</tr>
+		<tr>
+			<td><a href="usuarios?opcion=listar"> LISTAR USUARIOS</a></td>
+		</tr>
+	</table>
 </body>
 </html>

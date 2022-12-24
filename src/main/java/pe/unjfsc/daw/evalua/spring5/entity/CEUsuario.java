@@ -8,6 +8,22 @@ public class CEUsuario {
 	private String correo;
 	private String usuario;
 	private String password;
+	
+	public CEUsuario(int id, String dni, String nombre, String apellido, String correo, String usuario,
+			String password) {
+		super();
+		this.id = id;
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.correo = correo;
+		this.usuario = usuario;
+		this.password = password;
+	}
+	public CEUsuario() {
+		
+	}
+	
 	public int getId() {
 		return id;
 	}
@@ -49,6 +65,26 @@ public class CEUsuario {
 	}
 	public void setPassword(String password) {
 		this.password = password;
+	}
+	@Override
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("CEUsuario [id=");
+		builder.append(id);
+		builder.append(", dni=");
+		builder.append(dni);
+		builder.append(", nombre=");
+		builder.append(nombre);
+		builder.append(", apellido=");
+		builder.append(apellido);
+		builder.append(", correo=");
+		builder.append(correo);
+		builder.append(", usuario=");
+		builder.append(usuario);
+		builder.append(", password=");
+		builder.append(password);
+		builder.append("]");
+		return builder.toString();
 	}
 	
 	

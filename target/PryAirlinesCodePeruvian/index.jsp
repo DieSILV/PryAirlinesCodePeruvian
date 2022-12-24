@@ -26,7 +26,7 @@
             </nav>
 
             <nav class="barra__login">
-                <a class="barra__link" href="#">Login</a>
+                <a class="barra__link" href="<co:url value="usuarios?opcion=insertar"/>">Login</a>
             </nav>
         </div>
 
@@ -186,8 +186,8 @@
 
     <section class="anfitrion contenedor seccion">
         <div class="anfitrion__contenido">
-            <h2 class="anfitrion__heading">Anímate a ser anfitrión</h2>
-            <p class="anfitrion__texto">Comparte tu espacio para ganar dinero extra y aprovechar nuevas oportunidades</p>
+            <h2 class="anfitrion__heading">Anímate a ser usuario</h2>
+            <p class="anfitrion__texto">Aprovechar los descuentos de viajes para nuestros usuarios.</p>
             <a href="#" class="anfitrion__enlace">Más Información</a>
         </div>
     </section>

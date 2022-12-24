@@ -26,7 +26,7 @@
             </nav>
 
             <nav class="barra__login">
-                <a class="barra__link" href="#">Login</a>
+                <a class="barra__link" href="<co:url value=""/>">Login</a>
             </nav>
         </div>
 
